@@ -6,17 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AC446C632D70B12E00E380B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC446C5C2D70B12E00E380B6 /* Preview Assets.xcassets */; };
+		AC446C642D70B12E00E380B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC446C5E2D70B12E00E380B6 /* Assets.xcassets */; };
+		AC446C652D70B12E00E380B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC446C5F2D70B12E00E380B6 /* ContentView.swift */; };
+		AC446C662D70B12E00E380B6 /* PizzaSharingCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC446C612D70B12E00E380B6 /* PizzaSharingCalculatorApp.swift */; };
+		AC446C6E2D70B1F400E380B6 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC446C6D2D70B1F400E380B6 /* Pizza.swift */; };
+		AC446C702D70B22000E380B6 /* PizzaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC446C6F2D70B22000E380B6 /* PizzaViewModel.swift */; };
+		AC446C722D70B24500E380B6 /* PizzaItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC446C712D70B24500E380B6 /* PizzaItemView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		AC446C4A2D70B11300E380B6 /* PizzaSharingCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaSharingCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC446C5C2D70B12E00E380B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC446C5E2D70B12E00E380B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC446C5F2D70B12E00E380B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC446C602D70B12E00E380B6 /* PizzaSharingCalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PizzaSharingCalculator.entitlements; sourceTree = "<group>"; };
+		AC446C612D70B12E00E380B6 /* PizzaSharingCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaSharingCalculatorApp.swift; sourceTree = "<group>"; };
+		AC446C6D2D70B1F400E380B6 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		AC446C6F2D70B22000E380B6 /* PizzaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaViewModel.swift; sourceTree = "<group>"; };
+		AC446C712D70B24500E380B6 /* PizzaItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		AC446C4C2D70B11300E380B6 /* PizzaSharingCalculator */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PizzaSharingCalculator;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AC446C472D70B11300E380B6 /* Frameworks */ = {
@@ -32,7 +42,7 @@
 		AC446C412D70B11300E380B6 = {
 			isa = PBXGroup;
 			children = (
-				AC446C4C2D70B11300E380B6 /* PizzaSharingCalculator */,
+				AC446C622D70B12E00E380B6 /* PizzaSharingCalculator */,
 				AC446C4B2D70B11300E380B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +53,53 @@
 				AC446C4A2D70B11300E380B6 /* PizzaSharingCalculator.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AC446C5D2D70B12E00E380B6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC446C5E2D70B12E00E380B6 /* Assets.xcassets */,
+				AC446C5C2D70B12E00E380B6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC446C622D70B12E00E380B6 /* PizzaSharingCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				AC446C612D70B12E00E380B6 /* PizzaSharingCalculatorApp.swift */,
+				AC446C6A2D70B18700E380B6 /* PizzaView */,
+				AC446C6B2D70B18A00E380B6 /* PizzaViewModel */,
+				AC446C6C2D70B18D00E380B6 /* PizzaModel */,
+				AC446C5D2D70B12E00E380B6 /* Preview Content */,
+				AC446C602D70B12E00E380B6 /* PizzaSharingCalculator.entitlements */,
+			);
+			path = PizzaSharingCalculator;
+			sourceTree = "<group>";
+		};
+		AC446C6A2D70B18700E380B6 /* PizzaView */ = {
+			isa = PBXGroup;
+			children = (
+				AC446C5F2D70B12E00E380B6 /* ContentView.swift */,
+				AC446C712D70B24500E380B6 /* PizzaItemView.swift */,
+			);
+			path = PizzaView;
+			sourceTree = "<group>";
+		};
+		AC446C6B2D70B18A00E380B6 /* PizzaViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AC446C6F2D70B22000E380B6 /* PizzaViewModel.swift */,
+			);
+			path = PizzaViewModel;
+			sourceTree = "<group>";
+		};
+		AC446C6C2D70B18D00E380B6 /* PizzaModel */ = {
+			isa = PBXGroup;
+			children = (
+				AC446C6D2D70B1F400E380B6 /* Pizza.swift */,
+			);
+			path = PizzaModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +116,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				AC446C4C2D70B11300E380B6 /* PizzaSharingCalculator */,
 			);
 			name = PizzaSharingCalculator;
 			packageProductDependencies = (
@@ -109,6 +163,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC446C632D70B12E00E380B6 /* Preview Assets.xcassets in Resources */,
+				AC446C642D70B12E00E380B6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC446C652D70B12E00E380B6 /* ContentView.swift in Sources */,
+				AC446C702D70B22000E380B6 /* PizzaViewModel.swift in Sources */,
+				AC446C722D70B24500E380B6 /* PizzaItemView.swift in Sources */,
+				AC446C662D70B12E00E380B6 /* PizzaSharingCalculatorApp.swift in Sources */,
+				AC446C6E2D70B1F400E380B6 /* Pizza.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
